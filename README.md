@@ -15,18 +15,4 @@ A simple and user-friendly Python application for **encrypting and decrypting te
 
 ---
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/bigbang412247-hub/encrypt-decrypt.git
-cd encrypt-decrypt
-
-# Install dependencies
-pip install cryptography
-
-# Optional (for GUI)
-sudo apt install python3-tk
-python3 encryptor.py
-
-
+#
