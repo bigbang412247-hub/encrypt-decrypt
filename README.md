@@ -1,41 +1,29 @@
-# encrypt-decrypt
-encrypt decrypt
-Encryptor-UI / Encrypt-Decrypt Python Tool
+# Encrypt-Decrypt Python Tool
 
-Description:
-A simple and user-friendly Python application for encrypting and decrypting text and files. Designed for both CLI (terminal) and GUI usage, this tool allows secure data protection using Fernet symmetric encryption with a password-derived key. Ideal for learning, experimentation, and lightweight personal use.
+A simple and user-friendly Python application for **encrypting and decrypting text and files**. Supports both **CLI** (terminal) and **GUI** usage. Uses **Fernet symmetric encryption** with a password-derived key for secure data handling.
 
-Features:
+---
 
-Encrypt and decrypt text via terminal or GUI.
+## Features
 
-Encrypt and decrypt files securely.
+- Encrypt and decrypt **text** via terminal or GUI.
+- Encrypt and decrypt **files** securely.
+- Password-based key derivation using **PBKDF2HMAC**.
+- Base64 output for easy copy/paste of encrypted text.
+- Cross-platform Python 3 compatibility with **Tkinter GUI**.
+- Lightweight, simple, and beginner-friendly.
 
-Password-based key derivation using PBKDF2HMAC.
+---
 
-Base64 output for easy copy/paste of encrypted text.
+## Installation
 
-Cross-platform Python 3 compatibility with Tkinter GUI.
+```bash
+# Clone the repository
+git clone https://github.com/bigbang412247-hub/encrypt-decrypt.git
+cd encrypt-decrypt
 
-Easy to use for both beginners and advanced users.
+# Install dependencies
+pip install cryptography
 
-Installation:
-
-Requires Python 3.
-
-Install dependencies: pip install cryptography.
-
-GUI version runs with python3 encryptor_ui.py.
-
-CLI version runs with python3 encrypt_decrypt.py.
-
-Use Cases:
-
-Secure personal notes or files.
-
-Learn basic cryptography concepts in Python.
-
-Quickly encrypt/decrypt data without third-party software.
-
-Disclaimer:
-This tool is intended for educational and personal use. Do not use it for highly sensitive production environments without reviewing and enhancing security.
+# Optional (for GUI)
+sudo apt install python3-tk
