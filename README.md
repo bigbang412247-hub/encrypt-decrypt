@@ -27,3 +27,6 @@ pip install cryptography
 
 # Optional (for GUI)
 sudo apt install python3-tk
+python3 encryptor.py
+
+
